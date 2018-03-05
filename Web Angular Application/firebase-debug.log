@@ -1,42 +1,33 @@
-[debug] [2018-03-02T19:40:04.796Z] ----------------------------------------------------------------------
-[debug] [2018-03-02T19:40:04.799Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\608941125\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --project weather-27613
-[debug] [2018-03-02T19:40:04.799Z] CLI Version:   3.17.4
-[debug] [2018-03-02T19:40:04.799Z] Platform:      win32
-[debug] [2018-03-02T19:40:04.799Z] Node Version:  v6.10.0
-[debug] [2018-03-02T19:40:04.801Z] Time:          Sat Mar 03 2018 01:10:04 GMT+0530 (India Standard Time)
-[debug] [2018-03-02T19:40:04.801Z] ----------------------------------------------------------------------
+[debug] [2018-03-05T15:00:20.706Z] ----------------------------------------------------------------------
+[debug] [2018-03-05T15:00:20.709Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\608941125\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve -P weather-27613
+[debug] [2018-03-05T15:00:20.709Z] CLI Version:   3.17.4
+[debug] [2018-03-05T15:00:20.709Z] Platform:      win32
+[debug] [2018-03-05T15:00:20.710Z] Node Version:  v6.10.0
+[debug] [2018-03-05T15:00:20.711Z] Time:          Mon Mar 05 2018 20:30:20 GMT+0530 (India Standard Time)
+[debug] [2018-03-05T15:00:20.711Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-03-02T19:40:04.817Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-03-02T19:40:04.818Z] > authorizing via signed-in user
-[debug] [2018-03-02T19:40:04.823Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-03-02T19:40:04.824Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- { refresh_token: '1/75I9GIoHtBSOWirdhg5JX10UvECxAgsNJgjaZLep7YM',
-  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
-  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
-  grant_type: 'refresh_token',
-  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Sat Mar 03 2018 01:10:04 GMT+0530 (India Standard Time)
-[debug] [2018-03-02T19:40:05.327Z] <<< HTTP RESPONSE 200
-[debug] [2018-03-02T19:40:05.365Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/weather-27613  
+[debug] [2018-03-05T15:00:20.726Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-05T15:00:20.727Z] > authorizing via signed-in user
+[debug] [2018-03-05T15:00:20.731Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/weather-27613  
   
- Sat Mar 03 2018 01:10:05 GMT+0530 (India Standard Time)
-[debug] [2018-03-02T19:40:06.750Z] <<< HTTP RESPONSE 200
-[debug] [2018-03-02T19:40:06.755Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/weather-27613/tokens  
+ Mon Mar 05 2018 20:30:20 GMT+0530 (India Standard Time)
+[debug] [2018-03-05T15:00:21.952Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-05T15:00:21.955Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/weather-27613/tokens  
   
- Sat Mar 03 2018 01:10:06 GMT+0530 (India Standard Time)
-[debug] [2018-03-02T19:40:07.956Z] <<< HTTP RESPONSE 200
+ Mon Mar 05 2018 20:30:21 GMT+0530 (India Standard Time)
+[debug] [2018-03-05T15:00:22.959Z] <<< HTTP RESPONSE 200
 [info] 
-[info] === Serving from 'C:\ProgramData\NewAPP\BT SVN\WeatherApp\weather'...
+[info] === Serving from 'C:\ProgramData\NewAPP\BT SVN\WeatherApp\repostory\Weather\weather'...
 [info] 
-[debug] [2018-03-02T19:40:07.968Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/weather-27613  
+[debug] [2018-03-05T15:00:22.975Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/weather-27613  
   
- Sat Mar 03 2018 01:10:07 GMT+0530 (India Standard Time)
-[debug] [2018-03-02T19:40:09.989Z] <<< HTTP RESPONSE 200
-[debug] [2018-03-02T19:40:09.992Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/964867180078/clients/_:getWebAppConfig  
+ Mon Mar 05 2018 20:30:22 GMT+0530 (India Standard Time)
+[debug] [2018-03-05T15:00:24.902Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-05T15:00:24.903Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/964867180078/clients/_:getWebAppConfig  
   
- Sat Mar 03 2018 01:10:09 GMT+0530 (India Standard Time)
-[debug] [2018-03-02T19:40:11.182Z] <<< HTTP RESPONSE 200
-[debug] [2018-03-02T19:40:11.388Z] TypeError: Cannot read property 'public' of undefined
+ Mon Mar 05 2018 20:30:24 GMT+0530 (India Standard Time)
+[debug] [2018-03-05T15:00:26.423Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-05T15:00:26.520Z] TypeError: Cannot read property 'public' of undefined
     at Server.<anonymous> (C:\Users\608941125\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\hosting.js:34:17)
     at Server.g (events.js:291:16)
     at emitNone (events.js:86:13)
@@ -46,36 +37,36 @@
     at process._tickDomainCallback (internal/process/next_tick.js:122:9)
 [error] 
 [error] Error: An unexpected error has occurred.
-[debug] [2018-03-02T19:40:23.325Z] ----------------------------------------------------------------------
-[debug] [2018-03-02T19:40:23.337Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\608941125\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --project weather-27613
-[debug] [2018-03-02T19:40:23.339Z] CLI Version:   3.17.4
-[debug] [2018-03-02T19:40:23.340Z] Platform:      win32
-[debug] [2018-03-02T19:40:23.340Z] Node Version:  v6.10.0
-[debug] [2018-03-02T19:40:23.344Z] Time:          Sat Mar 03 2018 01:10:23 GMT+0530 (India Standard Time)
-[debug] [2018-03-02T19:40:23.344Z] ----------------------------------------------------------------------
+[debug] [2018-03-05T15:01:19.320Z] ----------------------------------------------------------------------
+[debug] [2018-03-05T15:01:19.323Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\608941125\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve -P weather-27613
+[debug] [2018-03-05T15:01:19.323Z] CLI Version:   3.17.4
+[debug] [2018-03-05T15:01:19.323Z] Platform:      win32
+[debug] [2018-03-05T15:01:19.323Z] Node Version:  v6.10.0
+[debug] [2018-03-05T15:01:19.325Z] Time:          Mon Mar 05 2018 20:31:19 GMT+0530 (India Standard Time)
+[debug] [2018-03-05T15:01:19.325Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-03-02T19:40:23.399Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-03-02T19:40:23.403Z] > authorizing via signed-in user
-[debug] [2018-03-02T19:40:23.415Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/weather-27613  
+[debug] [2018-03-05T15:01:19.340Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-05T15:01:19.341Z] > authorizing via signed-in user
+[debug] [2018-03-05T15:01:19.344Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/weather-27613  
   
- Sat Mar 03 2018 01:10:23 GMT+0530 (India Standard Time)
-[debug] [2018-03-02T19:40:24.874Z] <<< HTTP RESPONSE 200
-[debug] [2018-03-02T19:40:24.878Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/weather-27613/tokens  
+ Mon Mar 05 2018 20:31:19 GMT+0530 (India Standard Time)
+[debug] [2018-03-05T15:01:20.738Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-05T15:01:20.744Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/weather-27613/tokens  
   
- Sat Mar 03 2018 01:10:24 GMT+0530 (India Standard Time)
-[debug] [2018-03-02T19:40:26.294Z] <<< HTTP RESPONSE 200
+ Mon Mar 05 2018 20:31:20 GMT+0530 (India Standard Time)
+[debug] [2018-03-05T15:01:21.845Z] <<< HTTP RESPONSE 200
 [info] 
-[info] === Serving from 'C:\ProgramData\NewAPP\BT SVN\WeatherApp\weather'...
+[info] === Serving from 'C:\ProgramData\NewAPP\BT SVN\WeatherApp\repostory\Weather\weather'...
 [info] 
-[debug] [2018-03-02T19:40:26.311Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/weather-27613  
+[debug] [2018-03-05T15:01:21.857Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/weather-27613  
   
- Sat Mar 03 2018 01:10:26 GMT+0530 (India Standard Time)
-[debug] [2018-03-02T19:40:28.115Z] <<< HTTP RESPONSE 200
-[debug] [2018-03-02T19:40:28.117Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/964867180078/clients/_:getWebAppConfig  
+ Mon Mar 05 2018 20:31:21 GMT+0530 (India Standard Time)
+[debug] [2018-03-05T15:01:23.751Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-05T15:01:23.753Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/964867180078/clients/_:getWebAppConfig  
   
- Sat Mar 03 2018 01:10:28 GMT+0530 (India Standard Time)
-[debug] [2018-03-02T19:40:29.957Z] <<< HTTP RESPONSE 200
-[debug] [2018-03-02T19:40:30.079Z] TypeError: Cannot read property 'public' of undefined
+ Mon Mar 05 2018 20:31:23 GMT+0530 (India Standard Time)
+[debug] [2018-03-05T15:01:25.556Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-05T15:01:25.657Z] TypeError: Cannot read property 'public' of undefined
     at Server.<anonymous> (C:\Users\608941125\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\hosting.js:34:17)
     at Server.g (events.js:291:16)
     at emitNone (events.js:86:13)
