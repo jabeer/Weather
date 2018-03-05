@@ -1,0 +1,9 @@
+<div style="text-align:center">
+  <app-header city={{city}} country={{country}}></app-header>
+</div>
+<app-today-forecast temperature={{todayWeather?.temperature}} description={{todayWeather?.desc}} time={{todayWeather?.time}}  humidity={{todayWeather?.humidity}} pressure={{todayWeather?.pressure}} minTemperature={{todayWeather?.minTemperature}} maxTemperature={{todayWeather?.maxTemperature}} wind={{todayWeather?.wind}} image={{todayWeather?.image}}></app-today-forecast>
+
+<div class="weatherBottom">
+<app-future-forecast *ngFor="let item of foreWeather;" maxTemperature={{item?.maxTemperature}} 
+  minTemperature={{item?.minTemperature}} description={{item?.desc}} day={{item?.time}} image={{item?.image}}></app-future-forecast>
+</div>

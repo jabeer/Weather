@@ -1,0 +1,33 @@
+<div class="currentWeather">
+  <div class="weather">
+    <div class="temperature"><img src={{image}}><span>{{(temperature-273.15).toFixed(2)}}&#176;C</span></div>
+    <span class="currentDesc"> {{description}}</span>
+  </div>
+
+  <div class="weatherInfo">
+  	<div>
+  		<span>Local Time</span>
+  		<span class="weatherInfoRight">{{time}}</span>
+  	</div>
+  	<div>
+  		<span>Min temperature</span>
+  		<span class="weatherInfoRight">{{(minTemperature-273.15).toFixed(2)}}&#176;C</span>
+  	</div>
+  	<div>
+  		<span>Max Temperature</span>
+  		<span class="weatherInfoRight">{{(maxTemperature-273.15).toFixed(2)}}&#176;C</span>
+  	</div>
+  	<div>
+  		<span>Humidity</span>
+  		<span class="weatherInfoRight">{{humidity}}%</span>
+  	</div>
+  	<div>
+  		<span>Wind Speed</span>
+  		<span class="weatherInfoRight">{{wind}} kmps</span>
+  	</div>
+  	<div>
+  		<span>Pressure</span>
+  		<span class="weatherInfoRight">{{pressure}}mbar</span>
+  	</div>
+  </div>
+</div>

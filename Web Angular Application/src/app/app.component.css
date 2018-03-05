@@ -1,0 +1,13 @@
+app-future-forecast {
+	width: 25%;
+	float: left;
+	margin-bottom: 30px;
+}
+.weatherBottom{
+	width: 100%;
+    border-top: 1px solid #3d3d3d;
+    padding: 20px 0;
+    overflow: hidden;
+    color: #fff;
+    font-size: 12px;
+}

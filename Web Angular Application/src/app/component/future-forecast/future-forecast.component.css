@@ -1,0 +1,36 @@
+.foreWeather {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 20px 0px;
+}
+
+.foreweather-individual {
+	text-align: center;	
+}
+
+.foreweather-individual h2 {     font-size: 14px;
+    font-weight: normal;
+    color: #82d3f3;
+    padding: 0 0 8px 0;
+    margin: 0 30% 26px 30%;
+    border-bottom: 1px solid #325052; }
+
+.foreweather-individual h3 {
+	margin: 0 0 10px 0;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.foreweather-individual h4 {
+	margin: 0 0 6px 0;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.foreweather-individual p {
+	font-weight: normal;
+	font-size: 12px;
+	margin:0 
+}
+
